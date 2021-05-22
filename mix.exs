@@ -41,7 +41,9 @@ defmodule Crispr.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:absinthe, "~> 1.5"},
+      {:absinthe_plug, "~> 1.5"},
     ]
   end
 
@@ -53,7 +55,7 @@ defmodule Crispr.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "cmd npm install --prefix assets"]
+      setup: ["deps.get", "cmd yarn install --prefix assets"]
     ]
   end
 end

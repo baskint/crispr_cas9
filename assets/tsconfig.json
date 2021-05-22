@@ -11,11 +11,6 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "@pages/*": [
-        "./js/pages/*"
-      ],
-    }
   },
   "exclude": [
     "/node_modules/**/*",
