@@ -1,6 +1,6 @@
 
 import React from 'react';
-import GeneEditingContainer from './pages/GeneEditingTools';
+
 import { MuiThemeProvider, StylesProvider } from '@material-ui/core/styles';
 import {
   BrowserRouter as Router,
@@ -10,6 +10,10 @@ import {
 import { RecoilRoot } from 'recoil';
 import { ThemeProvider } from 'styled-components';
 import theme, { muiTheme } from './theme';
+
+import Home from './pages/Home';
+import ButtonAppBar from './components/AppBar';
+import GeneEditingContainer from './pages/GeneEditingTools';
 import DiagnosticToolsContainer from './pages/DiagnosticTools';
 
 export const Providers: React.FC = ({ children }) => (
@@ -26,8 +30,10 @@ export const Providers: React.FC = ({ children }) => (
 
 const App: React.FC = () => (
   <Providers>
-   <Router>
+    <Router>
+      <ButtonAppBar />
       <Switch>
+        <Route exact path='/' component={Home} />
         <Route exact path="/gene-editing">
           <GeneEditingContainer />
         </Route>
@@ -35,7 +41,7 @@ const App: React.FC = () => (
           <DiagnosticToolsContainer />
         </Route>
       </Switch>
-   </Router>
+    </Router>
   </Providers>
 );
 
