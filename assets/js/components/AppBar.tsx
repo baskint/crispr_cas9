@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
+      underline: "none"
     },
     menuButton: {
       marginRight: theme.spacing(2),
@@ -23,6 +24,15 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
       alignSelf: 'center'
     },
+    link: {
+      color: 'white',
+      "&:hover": {
+        color: 'white',
+        textDecoration: 'none',
+        backgroundImage: 'linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed)',
+        boxShadow: '0 20px 20px 0 rgba(65, 132, 234, 0.75)',
+      }
+    }
   }),
 );
 
@@ -42,13 +52,13 @@ const ButtonAppBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h4" className={classes.title}>
-            <Link to="/" component={RouterLink} color="inherit" >Home</Link>
+            <Link to="/" component={RouterLink} className={classes.link} >Home</Link>
           </Typography>
           <Typography variant="h4" className={classes.title}>
-            <Link to="/gene-editing" component={RouterLink} color="inherit" >Gene Editing</Link>
+            <Link to="/gene-editing" component={RouterLink} className={classes.link} >Gene Editing</Link>
           </Typography>
           <Typography variant="h4" className={classes.title}>
-            <Link to="/diagnostics" component={RouterLink} color="inherit" >Diagnostics</Link>
+            <Link to="/diagnostics" component={RouterLink} className={classes.link} >Diagnostics</Link>
           </Typography>
         </Toolbar>
       </AppBar>
