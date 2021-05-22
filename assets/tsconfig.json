@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "ESNext",
-    "allowJs": true,
+    "target": "es2019",
+    "module": "commonjs",
     "jsx": "react",
-    "outDir": "./dist/",
+    "declaration": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
     "strict": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@pages/*": [
+        "./js/pages/*"
+      ],
+    }
   },
   "exclude": [
     "/node_modules/**/*",
