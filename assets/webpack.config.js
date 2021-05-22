@@ -1,6 +1,5 @@
 const path = require('path');
 const glob = require('glob');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -29,14 +28,6 @@ module.exports = (env, options) => {
               loader: 'ts-loader'
             }
           ]
-        },
-        {
-          test: /\.[s]?css$/,
-          use: [
-            MiniCssExtractPlugin.loader,
-            'css-loader',
-            'sass-loader',
-          ],
         }
       ]
     },
@@ -44,7 +35,7 @@ module.exports = (env, options) => {
       extensions: [".ts", ".tsx", ".js", ".jsx"]
     },
     plugins: [
-      new MiniCssExtractPlugin({ filename: '../css/app.css' }),
+      // new MiniCssExtractPlugin({ filename: '../css/app.css' }),
       new CopyWebpackPlugin({
         patterns: [
           { from: 'static/', to: '../' }

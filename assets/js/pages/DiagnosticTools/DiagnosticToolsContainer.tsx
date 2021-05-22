@@ -1,9 +1,11 @@
 import React from 'react';
 
+import DiagnosticTools from './DiagnosticTools';
+
 const DiagnosticToolsContainer: React.FC = () => {
   console.log('diagnostic tools container');
   return (
-    <span>Diagnostic Tools</span>
+   <DiagnosticTools />
   )
 };
 
