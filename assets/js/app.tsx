@@ -3,8 +3,8 @@ import React from 'react';
 
 import { MuiThemeProvider, StylesProvider } from '@material-ui/core/styles';
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter,
+  Routes,
   Route,
 } from 'react-router-dom';
 import { RecoilRoot } from 'recoil';
@@ -30,18 +30,18 @@ export const Providers: React.FC = ({ children }) => (
 
 const App: React.FC = () => (
   <Providers>
-    <Router>
+    <BrowserRouter>
       <ButtonAppBar />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path="/gene-editing">
-          <GeneEditingContainer />
-        </Route>
-        <Route exact path="/diagnostics">
-          <DiagnosticToolsContainer />
-        </Route>
-      </Switch>
-    </Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="gene-editing"
+          element={<GeneEditingContainer />}
+        />
+        <Route path="diagnostics"
+          element={<DiagnosticToolsContainer />}
+        />
+      </Routes>
+    </BrowserRouter>
   </Providers>
 );
 
