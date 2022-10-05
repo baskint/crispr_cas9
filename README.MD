@@ -1,6 +1,6 @@
 
 
-# Tapkan
+# Crispr-CAS9 : A technique to add, edit, and remove DNA sequence
 
 This project was generated using [Nx](https://nx.dev).
 
