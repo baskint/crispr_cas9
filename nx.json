@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "tapkan-consulting",
+  "npmScope": "tapkan",
   "affected": {
     "defaultBase": "main"
   },
@@ -14,7 +14,7 @@
           "test",
           "e2e"
         ],
-        "accessToken": "YWRmZWY3NDktMWYwMS00NDEyLWJkNzYtOWUyNWZjODliOTExfHJlYWQtd3JpdGU="
+        "accessToken": "NTRlMzNmNDUtMzkyNy00NTljLWE5OTQtOTJkMWY5MWI3OTcxfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -72,7 +72,7 @@
     },
     "@nrwl/next": {
       "application": {
-        "style": "styled-jsx",
+        "style": "styled-components",
         "linter": "eslint"
       }
     }
