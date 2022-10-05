@@ -1,0 +1,63 @@
+{
+  "name": "crispr-cas9",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/crispr-cas9",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/crispr-cas9",
+        "outputPath": "dist/apps/crispr-cas9"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/crispr-cas9"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "crispr-cas9:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "crispr-cas9:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "crispr-cas9:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "crispr-cas9:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/crispr-cas9"],
+      "options": {
+        "jestConfig": "apps/crispr-cas9/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/crispr-cas9/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}
