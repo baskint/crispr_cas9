@@ -14,6 +14,10 @@ config :crispr_cas9, CrisprCas9Web.Endpoint, cache_static_manifest: "priv/static
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :crispr_cas9, CrisprCas9Web.Endpoint
+  url: [scheme: "https", host: "crisprcas9.herokuapp.com", port: 443],
+  force_ssl: [rewrite_on: [:x_forwarded_proto]],
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
