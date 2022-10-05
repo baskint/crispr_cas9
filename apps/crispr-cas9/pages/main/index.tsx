@@ -3,12 +3,7 @@ export interface MainProps {}
 
 export function Main(props: MainProps) {
   return (
-    <div className={styles['container']}>
-      <style jsx>{`
-        div {
-          color: pink;
-        }
-      `}</style>
+    <div className="container">
       <h1>Welcome to Main!</h1>
     </div>
   );

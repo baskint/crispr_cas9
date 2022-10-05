@@ -6,11 +6,6 @@ export function Index() {
    */
   return (
     <div>
-      <style jsx>{`
-        .page {
-        }
-      `}</style>
-
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
