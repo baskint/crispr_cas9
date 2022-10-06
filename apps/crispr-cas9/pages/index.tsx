@@ -1,4 +1,7 @@
+import React from 'react';
 import styled from 'styled-components';
+
+import Task from '../components/Task.component';
 
 const StyledPage = styled.div`
   .page {
@@ -22,6 +25,7 @@ export function Index() {
             </h1>
           </div>
 
+          <Task title="to do" />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
