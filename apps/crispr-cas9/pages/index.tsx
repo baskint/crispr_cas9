@@ -24,13 +24,13 @@ export function Index() {
         <div className="container">
           <div id="welcome">
             <h1>
-            🧬 Crispr-CAS9 🧬
+            🧬 CRISPR-Cas9 🧬
             </h1>
           </div>
 
           <div id="hero" className="rounded">
             <div className="text-container">
-            Crispr-CAS9 is a powerful tool for editing genomes, meaning it allows researchers to easily alter DNA sequences and modify gene function. It has many potential applications, including correcting genetic defects, treating and preventing the spread of diseases, and improving the growth and resilience of crops. 
+            CRISPR-Cas9 is a powerful tool for editing genomes, meaning it allows researchers to easily alter DNA sequences and modify gene function. It has many potential applications, including correcting genetic defects, treating and preventing the spread of diseases, and improving the growth and resilience of crops. 
             </div>
             <div className="logo-container">
               <Image height={300} width={450}  
