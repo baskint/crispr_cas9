@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Crispr * CAS9</title>
+        <title>CRISPR * Cas9</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
