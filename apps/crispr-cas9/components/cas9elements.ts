@@ -8,15 +8,18 @@ import {
 import { ExpandCircleDownOutlined } from '@mui/icons-material';
 
 const StyledAccordion = styled(Accordion)`
-  &.MuiPaper-root {
-    background-color: hsla(214, 62%, 21%, 1);
-    color: white;
-    border-radius: 16px;
+  &:last-of-type,
+  &:first-of-type {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
   }
+  &.MuiPaper-root {
+    background-color: hsla(214, 62%, 21%, 1);
+    color: white;
+    border-radius: 16px !important;
+  }
   &.MuiAccordion-root {
-    border-radius: 16px;
+    border-radius: 16px !important;
   }
 `;
 

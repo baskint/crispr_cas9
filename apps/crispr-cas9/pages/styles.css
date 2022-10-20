@@ -51,7 +51,7 @@ svg {
 }
 pre {
   background-color: rgba(55, 65, 81, 1);
-  border-radius: 0.25rem;
+  border-radius: 2em;
   color: rgba(229, 231, 235, 1);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     Liberation Mono, Courier New, monospace;
@@ -298,11 +298,6 @@ pre {
   align-items: center;
   display: flex;
 }
-#nx-cloud > div svg {
-  border-radius: 0.375rem;
-  flex-shrink: 0;
-  width: 3rem;
-}
 #nx-cloud > div h2 {
   font-size: 1.125rem;
   font-weight: 400;
@@ -369,7 +364,7 @@ details pre > span {
   display: block;
 }
 summary {
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   display: flex;
   font-weight: 400;
   padding: 0.5rem;

@@ -51,7 +51,7 @@ export function Index() {
                 The term "CRISPR" stands for "clusters of regularly interspaced short palindromic repeats" and describes a region of DNA made up of short, repeated sequences with so-called "spacers" sandwiched between each repeat.
               </Box>
             </div>
-            <div id="other-links">
+            <div className="rounded shadow">
               <Cas9Accordion />
             </div>
           </div>
