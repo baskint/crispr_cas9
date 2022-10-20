@@ -7,7 +7,7 @@ import {
 } from '@mui/material';
 
 const StyledAccordion = styled(Accordion)`
-  background-color: hsla(214, 62%, 21%, 1);;
+  background-color: hsla(214, 62%, 21%, 1);
   color: white;
 `
 
