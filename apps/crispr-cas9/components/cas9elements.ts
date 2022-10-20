@@ -5,25 +5,41 @@ import {
   AccordionDetails,
   Typography,
 } from '@mui/material';
+import { ExpandCircleDownOutlined } from '@mui/icons-material';
 
 const StyledAccordion = styled(Accordion)`
   background-color: hsla(214, 62%, 21%, 1);
   color: white;
+  border-radius: 16px;
+  &.MuiPaper-root {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  &.MuiAccordion-root {
+    border-radius: 16px;
+  }
 `
 
+const StyledAccordionSummary = styled(AccordionSummary)`
+  border-radius: 16px;
+
+`
 const StyledHeader = styled(Typography)`
- font-weight: 500;
-  font-size: 1.25rem;
-  letter-spacing: -0.025em;
-  line-height: 1.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  &.MuiTypography-root {
+   text-align: center;
+   width: 100%;
+  }
 `;
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default null;
+const StyledExpandIcon = styled(ExpandCircleDownOutlined)`
+  color: white;
+  width: 32px;
+  height: 32px;
+`;
 
 export {
   StyledAccordion,
-  StyledHeader
+  StyledAccordionSummary,
+  StyledHeader,
+  StyledExpandIcon,
 };
