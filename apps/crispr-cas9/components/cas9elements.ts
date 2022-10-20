@@ -20,6 +20,9 @@ const StyledHeader = styled(Typography)`
   padding-right: 1rem;
 `;
 
+// eslint-disable-next-line import/no-anonymous-default-export
+export default null;
+
 export {
   StyledAccordion,
   StyledHeader

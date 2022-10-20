@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {
   StyledAccordion,
   StyledHeader,
-} from './cas9elements';
+} from '../components/cas9elements';
 
 const Cas9Accordion = (): JSX.Element => {
   return (
