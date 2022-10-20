@@ -28,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
   h4 {
     font-family: inherit;
   }
+  .image-wrapper {
+    margin: auto;
+    width: 50%;
+  }
 `;
 
 export default GlobalStyle;

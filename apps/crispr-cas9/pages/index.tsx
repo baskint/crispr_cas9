@@ -55,6 +55,17 @@ export function Index() {
               <Cas9Accordion />
             </div>
           </div>
+          <div id="bottom-content">
+            <Image 
+              src="/static/images/how_it_works.jpg" 
+              alt="how it works"
+              objectFit="contain"
+              loading="lazy"
+              width={550}
+              height={650}
+
+            />
+          </div>
 
           <Box id="tapkan-consulting"
             display="flex"
