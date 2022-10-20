@@ -25,7 +25,6 @@ export function Index() {
             🧬 CRISPR-Cas9 🧬
             </h1>
           </div>
-
           <div id="hero" className="rounded">
             <div className="text-container">
             CRISPR-Cas9 is a powerful tool for editing genomes, meaning it allows researchers to easily alter DNA sequences and modify gene function. It has many potential applications, including correcting genetic defects, treating and preventing the spread of diseases, and improving the growth and resilience of crops.

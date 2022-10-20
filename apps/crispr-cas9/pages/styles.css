@@ -148,6 +148,12 @@ pre {
   grid-template-columns: 1fr;
   margin-top: 3.5rem;
 }
+
+#crispr-definition {
+  background-color: hsla(214, 62%, 21%, 1);
+  color: white;
+  padding: 8px;
+}
 #learning-materials {
   padding: 2.5rem 2rem;
 }
