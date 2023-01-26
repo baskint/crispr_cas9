@@ -22,7 +22,7 @@ const Cas9Accordion = (): JSX.Element => {
         </StyledAccordionSummary>
         <AccordionDetails>
           <Typography>
-            A CRISPR-associated (Cas) endonuclease, or enzyme, that acts as “molecular scissors” to cut DNA at a location specified by a guide RNA
+            A CRISPR-associated (Cas) endonuclease, or enzyme, that acts as “molecular scissors” to cut DNA at a location specified by a guide RNA.
           </Typography>
         </AccordionDetails>
       </StyledAccordion>
