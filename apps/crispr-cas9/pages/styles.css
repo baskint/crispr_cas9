@@ -161,9 +161,9 @@ pre {
 #bottom-content {
   align-items: center;
   display: grid;
-  gap: 4rem;
   grid-template-columns: 1fr;
   margin-top: 3.5rem;
+  background-color: hsla(214, 62%, 21%, 1);
 }
 
 #crispr-definition {

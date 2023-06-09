@@ -55,15 +55,17 @@ export function Index() {
               <Cas9Accordion />
             </div>
           </div>
-          <div id="bottom-content">
+          <div id="bottom-content"
+            className="rounded shadow"
+            style={{ overflow: 'hidden', padding: '10px 25px'}}
+          >
             <Image 
               src="/static/images/how_it_works.jpg" 
               alt="how it works"
               objectFit="contain"
               loading="lazy"
-              width={550}
-              height={650}
-
+              width={500}
+              height={750}
             />
           </div>
 
