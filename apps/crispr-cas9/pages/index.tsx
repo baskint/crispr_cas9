@@ -20,7 +20,7 @@ export function Index() {
     <StyledPage>
       <div className="wrapper">
         <div className="container">
-          <div id="intro">
+          <div id="welcome">
             <h1>
             🧬 CRISPR-Cas9 🧬
             </h1>
