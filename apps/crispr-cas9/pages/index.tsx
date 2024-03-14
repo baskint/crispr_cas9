@@ -20,7 +20,7 @@ export function Index() {
     <StyledPage>
       <div className="wrapper">
         <div className="container">
-          <div id="welcome">
+          <div id="intro">
             <h1>
             🧬 CRISPR-Cas9 🧬
             </h1>
@@ -46,7 +46,6 @@ export function Index() {
               >
                 <Typography variant="h4">CRISPR</Typography>
               </Box>
-
               <Box sx={{ p: 2 }}>
                 The term "CRISPR" stands for "clusters of regularly interspaced short palindromic repeats" and describes a region of DNA made up of short, repeated sequences with so-called "spacers" sandwiched between each repeat.
               </Box>
@@ -63,7 +62,6 @@ export function Index() {
               loading="lazy"
               width={550}
               height={650}
-
             />
           </div>
 
