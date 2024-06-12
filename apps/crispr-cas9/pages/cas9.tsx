@@ -8,28 +8,28 @@ import {
 } from '@mui/material';
 
 import {
-  // StyledAccordion,
-  // StyledAccordionSummary,
+  StyledAccordion,
+  StyledAccordionSummary,
   StyledExpandIcon,
   StyledHeader,
 } from '../components/cas9elements';
 
 const Cas9Accordion = (): JSX.Element => {
   return (
-      <Accordion>
-        <AccordionSummary
+      <StyledAccordion>
+        <StyledAccordionSummary
           expandIcon={<StyledExpandIcon />}
           aria-controls="cas9-content"
           id="cas9-header"
         >
           <StyledHeader variant="h4">Cas9</StyledHeader>
-        </AccordionSummary>
+        </StyledAccordionSummary>
         <AccordionDetails>
           <Typography>
             A CRISPR-associated (Cas) endonuclease, or enzyme, that acts as “molecular scissors” to cut DNA at a location specified by a guide RNA.
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </StyledAccordion>
   );
 }
 
