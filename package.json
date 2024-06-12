@@ -21,7 +21,7 @@
     "react-is": "18.3.1",
     "regenerator-runtime": "0.13.7",
     "sharp": "^0.31.1",
-    "styled-components": "^5.3.6",
+    "styled-components": "^6.1.11",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

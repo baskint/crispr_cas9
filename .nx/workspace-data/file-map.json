@@ -14,7 +14,7 @@
     "react-is": "18.3.1",
     "regenerator-runtime": "0.13.7",
     "sharp": "^0.31.1",
-    "styled-components": "^5.3.6",
+    "styled-components": "^6.1.11",
     "tslib": "^2.3.0",
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
@@ -72,6 +72,58 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".babelrc",
+        "hash": "1780677375940200928"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "10801544132659962230"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "15271892629158256582"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "1094603469163323313"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "10036760758910056004"
+      },
+      {
+        "file": ".storybook/tsconfig.json",
+        "hash": "3128062056361165723"
+      },
+      {
+        "file": ".tool-versions",
+        "hash": "4738281919045047364"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "17007467953458637745"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "README.MD",
+        "hash": "6948643578033338714"
+      },
+      {
         "file": "apps/.gitkeep",
         "hash": "3244421341483603138"
       },
@@ -80,80 +132,12 @@
         "hash": "5546405625092116747"
       },
       {
-        "file": ".prettierignore",
-        "hash": "1094603469163323313"
-      },
-      {
-        "file": "package.json",
-        "hash": "14957369821836238022"
-      },
-      {
-        "file": "README.MD",
-        "hash": "6948643578033338714"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "9773565372686775399"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
-      },
-      {
-        "file": ".babelrc",
-        "hash": "1780677375940200928"
-      },
-      {
-        "file": ".yarn/install-state.gz",
-        "hash": "12316874404422568017"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "package-lock.json",
-        "hash": "2990996745341213457"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "18001563339124023318"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9084884494335109525"
-      },
-      {
-        "file": "storybook-migration-summary.md",
-        "hash": "1744599114392808126"
-      },
-      {
-        "file": ".storybook/tsconfig.json",
-        "hash": "3128062056361165723"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "10801544132659962230"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6335297953688681459"
-      },
-      {
-        "file": ".storybook/main.ts",
-        "hash": "10036760758910056004"
       },
       {
         "file": "libs/.gitkeep",
@@ -164,16 +148,32 @@
         "hash": "3627387225305400223"
       },
       {
+        "file": "nx.json",
+        "hash": "6335297953688681459"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2990996745341213457"
+      },
+      {
+        "file": "package.json",
+        "hash": "18104543024709472762"
+      },
+      {
+        "file": "storybook-migration-summary.md",
+        "hash": "1744599114392808126"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "7788264000166780777"
       },
       {
         "file": "yarn.lock",
-        "hash": "11715951646390280671"
-      },
-      {
-        "file": ".tool-versions",
-        "hash": "4738281919045047364"
+        "hash": "14307554208232281129"
       }
     ],
     "projectFileMap": {
