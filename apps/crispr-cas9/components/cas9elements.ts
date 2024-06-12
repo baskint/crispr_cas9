@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import {
   Accordion,
   AccordionSummary,
-  // AccordionDetails,
   Typography,
 } from '@mui/material';
 import { ExpandCircleDownOutlined } from '@mui/icons-material';
