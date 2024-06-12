@@ -6,9 +6,7 @@
   "targets": {
     "build": {
       "executor": "@nx/next:build",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/crispr-cas9"
@@ -46,24 +44,14 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": [
-        "{workspaceRoot}/coverage/apps/crispr-cas9"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/apps/crispr-cas9"],
       "options": {
-        "jestConfig": "apps/crispr-cas9/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "apps/crispr-cas9/jest.config.ts"
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
-      "options": {
-        "lintFilePatterns": [
-          "apps/crispr-cas9/**/*.{ts,tsx,js,jsx}"
-        ]
-      }
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
     },
     "storybook": {
       "executor": "@nx/storybook:storybook",
@@ -79,9 +67,7 @@
     },
     "build-storybook": {
       "executor": "@nx/storybook:build",
-      "outputs": [
-        "{options.outputDir}"
-      ],
+      "outputs": ["{options.outputDir}"],
       "options": {
         "configDir": "apps/crispr-cas9/.storybook",
         "outputDir": "dist/storybook/crispr-cas9"

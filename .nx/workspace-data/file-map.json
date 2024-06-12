@@ -23,7 +23,7 @@
     "@nx/cypress": "14.8.3",
     "@nx/eslint-plugin": "14.8.3",
     "@nx/jest": "14.8.3",
-    "@nx/linter": "14.8.3",
+    "@nx/eslint": "14.8.3",
     "@nrwl/nx-cloud": "latest",
     "@nx/react": "^15.6.2",
     "@nx/storybook": "^14.8.3",

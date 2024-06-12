@@ -21,7 +21,7 @@
             }
           },
           "lint": {
-            "executor": "@nx/linter:eslint",
+            "executor": "@nx/eslint:eslint",
             "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
             "outputs": ["{options.outputFile}"],
             "options": {
@@ -76,7 +76,7 @@
             "configurations": {}
           },
           "lint": {
-            "executor": "@nx/linter:eslint",
+            "executor": "@nx/eslint:eslint",
             "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
             "outputs": ["{options.outputFile}"],
             "options": {
@@ -2280,21 +2280,21 @@
         "hash": "sha512-YHPYJP1by/YH+nO2MXBpsgQDx+QVRwnxAYcfr9240YbwCZcPwl1k7sDOruzMxzbIwbadVdkNxm9tNxhwoXK3TA=="
       }
     },
-    "npm:@nx/linter@14.8.3": {
+    "npm:@nx/eslint@14.8.3": {
       "type": "npm",
-      "name": "npm:@nx/linter@14.8.3",
+      "name": "npm:@nx/eslint@14.8.3",
       "data": {
         "version": "14.8.3",
-        "packageName": "@nx/linter",
+        "packageName": "@nx/eslint",
         "hash": "sha512-WN+D1kJnAe5a8nrSYRpftzlAsgckTpVuRjJedKwmSDi/f0T5H15TPlCHIqdDvB6RJAX6vVHDtYl1tpL0IZY1PA=="
       }
     },
-    "npm:@nx/linter@15.9.7": {
+    "npm:@nx/eslint@15.9.7": {
       "type": "npm",
-      "name": "npm:@nx/linter@15.9.7",
+      "name": "npm:@nx/eslint@15.9.7",
       "data": {
         "version": "15.9.7",
-        "packageName": "@nx/linter",
+        "packageName": "@nx/eslint",
         "hash": "sha512-PSbdBodqpbw1jmCWGLB1kxKRM8wpbonhZ3V133aLwb8P9c4q0aN7b3Z9VvtNKSS9eaLxYLu50BGiOahMIf4VXg=="
       }
     },
@@ -22948,7 +22948,7 @@
       },
       {
         "source": "npm:@nx/cypress@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -23163,7 +23163,7 @@
       },
       {
         "source": "npm:@nrwl/js@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -23329,61 +23329,61 @@
         "type": "static"
       }
     ],
-    "npm:@nx/linter@14.8.3": [
+    "npm:@nx/eslint@14.8.3": [
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:@nrwl/devkit@14.8.3",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:@nx/jest@14.8.3",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:@phenomnomnominal/tsquery@4.1.1",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:nx@14.8.3",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:tmp",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@14.8.3",
+        "source": "npm:@nx/eslint@14.8.3",
         "target": "npm:tslib",
         "type": "static"
       }
     ],
-    "npm:@nx/linter@15.9.7": [
+    "npm:@nx/eslint@15.9.7": [
       {
-        "source": "npm:@nx/linter@15.9.7",
+        "source": "npm:@nx/eslint@15.9.7",
         "target": "npm:@nrwl/devkit@15.9.7",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@15.9.7",
+        "source": "npm:@nx/eslint@15.9.7",
         "target": "npm:@nrwl/js@15.9.7",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@15.9.7",
+        "source": "npm:@nx/eslint@15.9.7",
         "target": "npm:@phenomnomnominal/tsquery@4.1.1",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@15.9.7",
+        "source": "npm:@nx/eslint@15.9.7",
         "target": "npm:tmp",
         "type": "static"
       },
       {
-        "source": "npm:@nx/linter@15.9.7",
+        "source": "npm:@nx/eslint@15.9.7",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -23411,7 +23411,7 @@
       },
       {
         "source": "npm:@nx/next@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -23535,7 +23535,7 @@
       },
       {
         "source": "npm:@nx/react@15.9.7",
-        "target": "npm:@nx/linter@15.9.7",
+        "target": "npm:@nx/eslint@15.9.7",
         "type": "static"
       },
       {
@@ -23602,7 +23602,7 @@
       },
       {
         "source": "npm:@nx/react@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -23811,7 +23811,7 @@
       },
       {
         "source": "npm:@nx/storybook@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -23902,7 +23902,7 @@
       },
       {
         "source": "npm:@nx/web@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {
@@ -24206,7 +24206,7 @@
       },
       {
         "source": "npm:@nx/workspace@14.8.3",
-        "target": "npm:@nx/linter@14.8.3",
+        "target": "npm:@nx/eslint@14.8.3",
         "type": "static"
       },
       {

@@ -30,13 +30,12 @@ export function Index() {
             CRISPR-Cas9 is a powerful tool for editing genomes, meaning it allows researchers to easily alter DNA sequences and modify gene function. It has many potential applications, including correcting genetic defects, treating and preventing the spread of diseases, and improving the growth and resilience of crops.
             </div>
             <div className="logo-container">
-              <Image height={300} width={450}
+              <Image height={270} width={340}
                 src="/static/images/dna_structure.jpg"
-                 alt="DNA structure"
+                alt="DNA structure"
               />
             </div>
           </div>
-
           <div id="middle-content">
             <div id="crispr-definition" className="rounded shadow">
               <Box
@@ -58,13 +57,12 @@ export function Index() {
             className="rounded shadow"
             style={{ overflow: 'hidden', padding: '10px 25px'}}
           >
-            <Image 
-              src="/static/images/how_it_works.jpg" 
+            <Image
+              src="/static/images/how_it_works.jpg"
               alt="how it works"
-              objectFit="contain"
               loading="lazy"
-              width={500}
-              height={750}
+              width={700}
+              height={800}
             />
           </div>
 

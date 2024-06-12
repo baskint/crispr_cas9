@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "16.10.0",
+  "nxVersion": "17.3.2",
   "deps": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
@@ -18,39 +18,39 @@
     "tslib": "^2.3.0",
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
-    "@nrwl/js": "16.10.0",
-    "@nx/cypress": "16.10.0",
-    "@nx/eslint-plugin": "16.10.0",
-    "@nx/jest": "16.10.0",
-    "@nx/linter": "16.10.0",
-    "@nx/next": "16.10.0",
-    "@nx/react": "16.10.0",
-    "@nx/storybook": "16.10.0",
-    "@nx/web": "16.10.0",
-    "@nx/webpack": "16.10.0",
-    "@nx/workspace": "16.10.0",
-    "@storybook/addon-essentials": "6.5.16",
+    "@nrwl/js": "17.3.2",
+    "@nx/cypress": "17.3.2",
+    "@nx/eslint": "17.3.2",
+    "@nx/eslint-plugin": "17.3.2",
+    "@nx/jest": "17.3.2",
+    "@nx/next": "17.3.2",
+    "@nx/react": "17.3.2",
+    "@nx/storybook": "17.3.2",
+    "@nx/web": "17.3.2",
+    "@nx/webpack": "17.3.2",
+    "@nx/workspace": "17.3.2",
+    "@storybook/addon-essentials": "7.6.9",
     "@storybook/builder-webpack5": "6.5.16",
-    "@storybook/core-server": "6.5.16",
+    "@storybook/core-server": "7.6.9",
     "@storybook/manager-webpack5": "6.5.16",
-    "@storybook/react": "6.5.16",
+    "@storybook/react": "7.6.9",
     "@svgr/webpack": "^5.4.0",
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.4.4",
-    "@types/node": "^20.11.27",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "@types/react-is": "18.2.1",
+    "@types/node": "18.16.9",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.9",
+    "@types/react-is": "18.2.2",
     "@types/styled-components": "5.1.26",
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
     "babel-jest": "29.4.3",
     "babel-loader": "8.1.0",
     "babel-plugin-styled-components": "1.10.7",
     "cypress": "^13.0.0",
-    "eslint": "8.46.0",
+    "eslint": "8.48.0",
     "eslint-config-next": "13.1.1",
-    "eslint-config-prettier": "8.1.0",
+    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-cypress": "2.15.2",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
@@ -58,14 +58,13 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "29.4.3",
     "jest-environment-jsdom": "29.4.3",
-    "nx": "16.10.0",
-    "nx-cloud": "19.0.0",
+    "nx": "17.3.2",
     "prettier": "^2.6.2",
     "storybook-addon-next": "^1.6.6",
     "storybook-addon-swc": "^1.1.7",
     "ts-jest": "29.1.4",
     "ts-node": "10.9.1",
-    "typescript": "5.1.6",
+    "typescript": "5.3.3",
     "url-loader": "^3.0.0"
   },
   "pathMappings": {},
@@ -73,164 +72,128 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".babelrc",
-        "hash": "1780677375940200928"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3572764657775677955"
-      },
-      {
-        "file": ".nx/cache/d/daemon.log",
-        "hash": "10549328565740713219"
-      },
-      {
-        "file": ".nx/cache/d/server-process.json",
-        "hash": "9740042842673108377"
-      },
-      {
-        "file": ".nx/cache/file-map.json",
-        "hash": "13479425138989282757"
-      },
-      {
-        "file": ".nx/cache/lockfile.hash",
-        "hash": "1470626981852366087"
-      },
-      {
-        "file": ".nx/cache/nx_files.nxt",
-        "hash": "257162104733983815"
-      },
-      {
-        "file": ".nx/cache/nxdeps.json",
-        "hash": "13251894158283136969"
-      },
-      {
-        "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "14351061720788553554"
-      },
-      {
-        "file": ".nx/cache/project-graph.json",
-        "hash": "3080770342287252246"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/9f725c445cdbccb3209f6629fc320986912db2d79495e569d10ca734bfc6a9fd",
-        "hash": "6263383516765724269"
-      },
-      {
-        "file": ".nx/workspace-data/d/daemon.log",
-        "hash": "9835421353604620176"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "9080254793064343209"
-      },
-      {
-        "file": ".nx/workspace-data/lockfile.hash",
-        "hash": "7325396057311180409"
-      },
-      {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "13473230599084834847"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "10906891470552991475"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "17733650430415207254"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".storybook/main.ts",
-        "hash": "10036760758910056004"
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
       },
       {
         "file": ".storybook/tsconfig.json",
         "hash": "3128062056361165723"
       },
       {
-        "file": ".tool-versions",
-        "hash": "4738281919045047364"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": ".yarn/install-state.gz",
-        "hash": "11368422400475022311"
+        "file": ".storybook/main.ts",
+        "hash": "10036760758910056004"
       },
       {
-        "file": ".yarnrc.yml",
-        "hash": "9773565372686775399"
-      },
-      {
-        "file": "README.MD",
-        "hash": "6948643578033338714"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "babel.config.json",
-        "hash": "5546405625092116747"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9084884494335109525"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "libs/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": "migrations.json",
-        "hash": "7081909870464776357"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
-        "file": "nx.json",
-        "hash": "16907481575602705464"
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "6219510838958284672"
       },
       {
-        "file": "package-lock.json",
-        "hash": "2990996745341213457"
-      },
-      {
-        "file": "package.json",
-        "hash": "4129465845367457281"
-      },
-      {
-        "file": "storybook-migration-summary.md",
-        "hash": "1744599114392808126"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
+        "file": ".gitignore",
+        "hash": "5151944186160701419"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "7788264000166780777"
       },
       {
+        "file": "migrations.json",
+        "hash": "614632340418029119"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4234306674712539602"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "14318741026593983273"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2990996745341213457"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".babelrc",
+        "hash": "1780677375940200928"
+      },
+      {
+        "file": "README.MD",
+        "hash": "6948643578033338714"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "10645102856966356494"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "7325396057311180409"
+      },
+      {
+        "file": ".tool-versions",
+        "hash": "4738281919045047364"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "9175937087874081623"
+      },
+      {
+        "file": "package.json",
+        "hash": "10730241029834348470"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "9835421353604620176"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
         "file": "yarn.lock",
-        "hash": "8129248499857637533"
+        "hash": "17982560443891269839"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "10384224634740233353"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "storybook-migration-summary.md",
+        "hash": "1744599114392808126"
       }
     ],
     "projectFileMap": {
@@ -348,7 +311,7 @@
         },
         {
           "file": "apps/crispr-cas9/pages/index.tsx",
-          "hash": "9404759604484960342",
+          "hash": "17890353337334727320",
           "deps": [
             "npm:react",
             "npm:styled-components",
@@ -362,7 +325,7 @@
         },
         {
           "file": "apps/crispr-cas9/project.json",
-          "hash": "288829004875818515"
+          "hash": "260689583328825892"
         },
         {
           "file": "apps/crispr-cas9/public/.gitkeep",
@@ -416,7 +379,7 @@
         },
         {
           "file": "apps/crispr-cas9-e2e/project.json",
-          "hash": "11507423937265187848"
+          "hash": "16028366253947981360"
         },
         {
           "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
