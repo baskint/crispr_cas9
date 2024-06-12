@@ -1,0 +1,448 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.10.0",
+  "deps": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "core-js": "^3.6.5",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "18.2.0",
+    "regenerator-runtime": "0.13.7",
+    "sharp": "^0.31.1",
+    "styled-components": "^5.3.6",
+    "tslib": "^2.3.0",
+    "@babel/core": "7.12.13",
+    "@babel/preset-typescript": "7.12.13",
+    "@nrwl/js": "16.10.0",
+    "@nx/cypress": "16.10.0",
+    "@nx/eslint-plugin": "16.10.0",
+    "@nx/jest": "16.10.0",
+    "@nx/linter": "16.10.0",
+    "@nx/next": "16.10.0",
+    "@nx/react": "16.10.0",
+    "@nx/storybook": "16.10.0",
+    "@nx/web": "16.10.0",
+    "@nx/webpack": "16.10.0",
+    "@nx/workspace": "16.10.0",
+    "@storybook/addon-essentials": "6.5.16",
+    "@storybook/builder-webpack5": "6.5.16",
+    "@storybook/core-server": "6.5.16",
+    "@storybook/manager-webpack5": "6.5.16",
+    "@storybook/react": "6.5.16",
+    "@svgr/webpack": "^5.4.0",
+    "@testing-library/react": "13.4.0",
+    "@types/jest": "29.4.4",
+    "@types/node": "^20.11.27",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@types/react-is": "18.2.1",
+    "@types/styled-components": "5.1.26",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
+    "babel-jest": "29.4.3",
+    "babel-loader": "8.1.0",
+    "babel-plugin-styled-components": "1.10.7",
+    "cypress": "^13.0.0",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "2.15.2",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "29.4.3",
+    "jest-environment-jsdom": "29.4.3",
+    "nx": "16.10.0",
+    "nx-cloud": "19.0.0",
+    "prettier": "^2.6.2",
+    "storybook-addon-next": "^1.6.6",
+    "storybook-addon-swc": "^1.1.7",
+    "ts-jest": "29.1.4",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6",
+    "url-loader": "^3.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".babelrc",
+        "hash": "1780677375940200928"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3572764657775677955"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "10549328565740713219"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "9740042842673108377"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "13479425138989282757"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "1470626981852366087"
+      },
+      {
+        "file": ".nx/cache/nx_files.nxt",
+        "hash": "257162104733983815"
+      },
+      {
+        "file": ".nx/cache/nxdeps.json",
+        "hash": "13251894158283136969"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "14351061720788553554"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "3080770342287252246"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9f725c445cdbccb3209f6629fc320986912db2d79495e569d10ca734bfc6a9fd",
+        "hash": "6263383516765724269"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "9835421353604620176"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "9080254793064343209"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "7325396057311180409"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "13473230599084834847"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "10906891470552991475"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "10036760758910056004"
+      },
+      {
+        "file": ".storybook/tsconfig.json",
+        "hash": "3128062056361165723"
+      },
+      {
+        "file": ".tool-versions",
+        "hash": "4738281919045047364"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "11368422400475022311"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "README.MD",
+        "hash": "6948643578033338714"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "7081909870464776357"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16907481575602705464"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2990996745341213457"
+      },
+      {
+        "file": "package.json",
+        "hash": "4129465845367457281"
+      },
+      {
+        "file": "storybook-migration-summary.md",
+        "hash": "1744599114392808126"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7788264000166780777"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "8129248499857637533"
+      }
+    ],
+    "projectFileMap": {
+      "crispr-cas9": [
+        {
+          "file": "apps/crispr-cas9/.eslintrc.json",
+          "hash": "7479282018246831680"
+        },
+        {
+          "file": "apps/crispr-cas9/.storybook/main.ts",
+          "hash": "13142217357106644322",
+          "deps": [
+            "npm:../../../.storybook/main",
+            "npm:@storybook/core-common",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/.storybook/preview.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/crispr-cas9/components/Task.component.stories.tsx",
+          "hash": "9047498451467156118",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/components/Task.component.tsx",
+          "hash": "3440059978495243541",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/components/cas9elements.ts",
+          "hash": "10559739326525701838",
+          "deps": [
+            "npm:styled-components",
+            "npm:@mui/material",
+            "npm:@mui/icons-material"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/components/globalStyle.ts",
+          "hash": "10231151012625883173",
+          "deps": [
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/crispr-cas9/jest.config.ts",
+          "hash": "10769343569540955585"
+        },
+        {
+          "file": "apps/crispr-cas9/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/crispr-cas9/next.config.js",
+          "hash": "4272252622042955866",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/_app.tsx",
+          "hash": "11156945966636074590",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/_document.tsx",
+          "hash": "4129735063134445253",
+          "deps": [
+            "npm:next",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/cas9.tsx",
+          "hash": "8627865605366965216",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/genome/edit.tsx",
+          "hash": "15103009462797203161",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/genome/genome.tsx",
+          "hash": "15033730858642791575",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:@mui/icons-material"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/genome/index.ts",
+          "hash": "12716877206672665714"
+        },
+        {
+          "file": "apps/crispr-cas9/pages/index.tsx",
+          "hash": "9404759604484960342",
+          "deps": [
+            "npm:react",
+            "npm:styled-components",
+            "npm:next",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/pages/styles.css",
+          "hash": "11616917784376195986"
+        },
+        {
+          "file": "apps/crispr-cas9/project.json",
+          "hash": "288829004875818515"
+        },
+        {
+          "file": "apps/crispr-cas9/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/crispr-cas9/public/favicon.ico",
+          "hash": "6076017388056035833"
+        },
+        {
+          "file": "apps/crispr-cas9/public/static/images/dna_structure.jpg",
+          "hash": "9794695620070714784"
+        },
+        {
+          "file": "apps/crispr-cas9/public/static/images/how_it_works.jpg",
+          "hash": "8166352977459958924"
+        },
+        {
+          "file": "apps/crispr-cas9/specs/index.spec.tsx",
+          "hash": "11056183168799669859",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9/tsconfig.json",
+          "hash": "2295372536319135618"
+        },
+        {
+          "file": "apps/crispr-cas9/tsconfig.spec.json",
+          "hash": "6932660931697717727"
+        },
+        {
+          "file": "apps/crispr-cas9/tsconfig.storybook.json",
+          "hash": "7221315955876319437"
+        }
+      ],
+      "crispr-cas9-e2e": [
+        {
+          "file": "apps/crispr-cas9-e2e/.eslintrc.json",
+          "hash": "15523834149352881398"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/project.json",
+          "hash": "11507423937265187848"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
+          "hash": "11547770221631572470"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ]
+    }
+  }
+}

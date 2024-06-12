@@ -5,11 +5,12 @@
   "projectType": "application",
   "targets": {
     "build": {
-      "executor": "@nrwl/next:build",
-      "outputs": ["{options.outputPath}"],
+      "executor": "@nx/next:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/crispr-cas9",
         "outputPath": "dist/apps/crispr-cas9"
       },
       "configurations": {
@@ -20,7 +21,7 @@
       }
     },
     "serve": {
-      "executor": "@nrwl/next:server",
+      "executor": "@nx/next:server",
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "crispr-cas9:build",
@@ -38,34 +39,37 @@
       }
     },
     "export": {
-      "executor": "@nrwl/next:export",
+      "executor": "@nx/next:export",
       "options": {
         "buildTarget": "crispr-cas9:build:production"
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/crispr-cas9"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/crispr-cas9"
+      ],
       "options": {
         "jestConfig": "apps/crispr-cas9/jest.config.ts",
         "passWithNoTests": true
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "executor": "@nx/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/crispr-cas9/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "apps/crispr-cas9/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "storybook": {
-      "executor": "@nrwl/storybook:storybook",
+      "executor": "@nx/storybook:storybook",
       "options": {
-        "uiFramework": "@storybook/react",
         "port": 4400,
-        "config": {
-          "configFolder": "apps/crispr-cas9/.storybook"
-        }
+        "configDir": "apps/crispr-cas9/.storybook"
       },
       "configurations": {
         "ci": {
@@ -74,14 +78,13 @@
       }
     },
     "build-storybook": {
-      "executor": "@nrwl/storybook:build",
-      "outputs": ["{options.outputPath}"],
+      "executor": "@nx/storybook:build",
+      "outputs": [
+        "{options.outputDir}"
+      ],
       "options": {
-        "uiFramework": "@storybook/react",
-        "outputPath": "dist/storybook/crispr-cas9",
-        "config": {
-          "configFolder": "apps/crispr-cas9/.storybook"
-        }
+        "configDir": "apps/crispr-cas9/.storybook",
+        "outputDir": "dist/storybook/crispr-cas9"
       },
       "configurations": {
         "ci": {

@@ -7,7 +7,7 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.8",
     "@mui/styled-engine-sc": "^5.10.6",
-    "@nrwl/next": "14.8.3",
+    "@nx/next": "14.8.3",
     "core-js": "^3.6.5",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -20,15 +20,15 @@
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
     "@nrwl/cli": "14.8.3",
-    "@nrwl/cypress": "14.8.3",
-    "@nrwl/eslint-plugin-nx": "14.8.3",
-    "@nrwl/jest": "14.8.3",
-    "@nrwl/linter": "14.8.3",
+    "@nx/cypress": "14.8.3",
+    "@nx/eslint-plugin": "14.8.3",
+    "@nx/jest": "14.8.3",
+    "@nx/linter": "14.8.3",
     "@nrwl/nx-cloud": "latest",
-    "@nrwl/react": "^15.6.2",
-    "@nrwl/storybook": "^14.8.3",
-    "@nrwl/web": "14.8.3",
-    "@nrwl/workspace": "14.8.3",
+    "@nx/react": "^15.6.2",
+    "@nx/storybook": "^14.8.3",
+    "@nx/web": "14.8.3",
+    "@nx/workspace": "14.8.3",
     "@storybook/addon-essentials": "~6.5.9",
     "@storybook/builder-webpack5": "~6.5.9",
     "@storybook/core-server": "~6.5.9",
@@ -170,9 +170,7 @@
         {
           "file": "apps/crispr-cas9-e2e/cypress.config.ts",
           "hash": "212614215478757206",
-          "deps": [
-            "npm:cypress"
-          ]
+          "deps": ["npm:cypress"]
         },
         {
           "file": "apps/crispr-cas9-e2e/project.json",
@@ -240,9 +238,7 @@
         {
           "file": "apps/crispr-cas9/components/globalStyle.ts",
           "hash": "10231151012625883173",
-          "deps": [
-            "npm:styled-components"
-          ]
+          "deps": ["npm:styled-components"]
         },
         {
           "file": "apps/crispr-cas9/index.d.ts",
@@ -267,31 +263,22 @@
         {
           "file": "apps/crispr-cas9/pages/_document.tsx",
           "hash": "4129735063134445253",
-          "deps": [
-            "npm:styled-components"
-          ]
+          "deps": ["npm:styled-components"]
         },
         {
           "file": "apps/crispr-cas9/pages/cas9.tsx",
           "hash": "8627865605366965216",
-          "deps": [
-            "npm:@mui/material"
-          ]
+          "deps": ["npm:@mui/material"]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/edit.tsx",
           "hash": "15103009462797203161",
-          "deps": [
-            "npm:@mui/material"
-          ]
+          "deps": ["npm:@mui/material"]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/genome.tsx",
           "hash": "15033730858642791575",
-          "deps": [
-            "npm:@mui/material",
-            "npm:@mui/icons-material"
-          ]
+          "deps": ["npm:@mui/material", "npm:@mui/icons-material"]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/index.ts",
@@ -300,10 +287,7 @@
         {
           "file": "apps/crispr-cas9/pages/index.tsx",
           "hash": "9404759604484960342",
-          "deps": [
-            "npm:styled-components",
-            "npm:@mui/material"
-          ]
+          "deps": ["npm:styled-components", "npm:@mui/material"]
         },
         {
           "file": "apps/crispr-cas9/pages/styles.css",
