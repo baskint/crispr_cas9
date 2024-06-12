@@ -1,71 +1,70 @@
 {
   "version": "6.0",
-  "nxVersion": "19.2.3",
+  "nxVersion": "19.2.0",
   "deps": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.8",
     "@mui/styled-engine-sc": "^5.10.6",
-    "@nx/next": "14.8.3",
-    "core-js": "^3.6.5",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-is": "18.2.0",
+    "core-js": "3.36.1",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-is": "18.3.1",
     "regenerator-runtime": "0.13.7",
     "sharp": "^0.31.1",
     "styled-components": "^5.3.6",
     "tslib": "^2.3.0",
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
-    "@nrwl/cli": "14.8.3",
-    "@nx/cypress": "14.8.3",
-    "@nx/eslint-plugin": "14.8.3",
-    "@nx/jest": "14.8.3",
-    "@nx/eslint": "14.8.3",
-    "@nrwl/nx-cloud": "latest",
-    "@nx/react": "^15.6.2",
-    "@nx/storybook": "^14.8.3",
-    "@nx/web": "14.8.3",
-    "@nx/workspace": "14.8.3",
-    "@storybook/addon-essentials": "~6.5.9",
-    "@storybook/builder-webpack5": "~6.5.9",
-    "@storybook/core-server": "~6.5.9",
-    "@storybook/manager-webpack5": "~6.5.9",
-    "@storybook/react": "~6.5.9",
+    "@nrwl/js": "19.2.0",
+    "@nx/cypress": "19.2.0",
+    "@nx/eslint": "19.2.0",
+    "@nx/eslint-plugin": "19.2.0",
+    "@nx/jest": "19.2.0",
+    "@nx/next": "19.2.0",
+    "@nx/react": "19.2.0",
+    "@nx/storybook": "19.2.0",
+    "@nx/web": "19.2.0",
+    "@nx/webpack": "19.2.0",
+    "@nx/workspace": "19.2.0",
+    "@storybook/addon-essentials": "7.6.9",
+    "@storybook/builder-webpack5": "6.5.16",
+    "@storybook/core-server": "7.6.9",
+    "@storybook/manager-webpack5": "6.5.16",
+    "@storybook/react": "7.6.9",
     "@svgr/webpack": "^5.4.0",
-    "@testing-library/react": "13.4.0",
-    "@types/jest": "28.1.1",
-    "@types/node": "^20.11.27",
-    "@types/react": "18.0.20",
-    "@types/react-dom": "18.0.6",
-    "@types/react-is": "17.0.3",
+    "@testing-library/react": "15.0.6",
+    "@types/jest": "29.4.4",
+    "@types/node": "18.16.9",
+    "@types/react": "18.0.1",
+    "@types/react-dom": "18.3.0",
+    "@types/react-is": "18.3.0",
     "@types/styled-components": "5.1.26",
-    "@typescript-eslint/eslint-plugin": "^5.36.1",
-    "@typescript-eslint/parser": "^5.36.1",
-    "babel-jest": "28.1.1",
+    "@typescript-eslint/eslint-plugin": "7.9.0",
+    "@typescript-eslint/parser": "7.9.0",
+    "babel-jest": "29.4.3",
     "babel-loader": "8.1.0",
     "babel-plugin-styled-components": "1.10.7",
-    "cypress": "^10.7.0",
-    "eslint": "~8.15.0",
-    "eslint-config-next": "12.3.1",
-    "eslint-config-prettier": "8.1.0",
-    "eslint-plugin-cypress": "^2.10.3",
+    "cypress": "13.11.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-cypress": "2.15.2",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
-    "jest": "28.1.1",
-    "jest-environment-jsdom": "28.1.1",
-    "nx": "14.8.3",
+    "jest": "29.4.3",
+    "jest-environment-jsdom": "29.4.3",
+    "nx": "19.2.0",
     "prettier": "^2.6.2",
-    "react-test-renderer": "18.2.0",
     "storybook-addon-next": "^1.6.6",
     "storybook-addon-swc": "^1.1.7",
-    "ts-jest": "28.0.5",
+    "ts-jest": "29.1.4",
     "ts-node": "10.9.1",
-    "typescript": "~4.8.2",
+    "typescript": "5.4.5",
     "url-loader": "^3.0.0"
   },
   "pathMappings": {},
@@ -81,16 +80,20 @@
         "hash": "5443105041930014821"
       },
       {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
         "file": ".eslintrc.json",
-        "hash": "15388041757782744192"
+        "hash": "10801544132659962230"
       },
       {
         "file": ".gitignore",
-        "hash": "3572764657775677955"
+        "hash": "18001563339124023318"
       },
       {
         "file": ".prettierignore",
-        "hash": "17733650430415207254"
+        "hash": "1094603469163323313"
       },
       {
         "file": ".prettierrc",
@@ -98,7 +101,7 @@
       },
       {
         "file": ".storybook/main.ts",
-        "hash": "5442189784170474685"
+        "hash": "10036760758910056004"
       },
       {
         "file": ".storybook/tsconfig.json",
@@ -109,8 +112,16 @@
         "hash": "4738281919045047364"
       },
       {
+        "file": ".yarn/install-state.gz",
+        "hash": "12316874404422568017"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
         "file": "README.MD",
-        "hash": "17531878309505908476"
+        "hash": "6948643578033338714"
       },
       {
         "file": "apps/.gitkeep",
@@ -122,19 +133,23 @@
       },
       {
         "file": "jest.config.ts",
-        "hash": "2950215254536237782"
+        "hash": "12333515226966617182"
       },
       {
         "file": "jest.preset.js",
-        "hash": "2772139696069860212"
+        "hash": "9084884494335109525"
       },
       {
         "file": "libs/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
+        "file": "migrations.json",
+        "hash": "3627387225305400223"
+      },
+      {
         "file": "nx.json",
-        "hash": "10130820205157703477"
+        "hash": "15017489515314866638"
       },
       {
         "file": "package-lock.json",
@@ -142,11 +157,11 @@
       },
       {
         "file": "package.json",
-        "hash": "11988037031174211766"
+        "hash": "14957369821836238022"
       },
       {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
+        "file": "storybook-migration-summary.md",
+        "hash": "1744599114392808126"
       },
       {
         "file": "tools/tsconfig.tools.json",
@@ -158,7 +173,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "1534729831567124636"
+        "hash": "11715951646390280671"
       }
     ],
     "projectFileMap": {
@@ -169,12 +184,15 @@
         },
         {
           "file": "apps/crispr-cas9-e2e/cypress.config.ts",
-          "hash": "212614215478757206",
-          "deps": ["npm:cypress"]
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
         },
         {
           "file": "apps/crispr-cas9-e2e/project.json",
-          "hash": "4623378745408432640"
+          "hash": "16028366253947981360"
         },
         {
           "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
@@ -204,27 +222,32 @@
       "crispr-cas9": [
         {
           "file": "apps/crispr-cas9/.eslintrc.json",
-          "hash": "16061339508295984477"
+          "hash": "7479282018246831680"
         },
         {
           "file": "apps/crispr-cas9/.storybook/main.ts",
-          "hash": "1518446451638121159"
+          "hash": "13142217357106644322",
+          "deps": [
+            "npm:@storybook/core-common"
+          ]
         },
         {
           "file": "apps/crispr-cas9/.storybook/preview.ts",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/crispr-cas9/.storybook/tsconfig.json",
-          "hash": "16407330147217030093"
-        },
-        {
           "file": "apps/crispr-cas9/components/Task.component.stories.tsx",
-          "hash": "9047498451467156118"
+          "hash": "9047498451467156118",
+          "deps": [
+            "npm:@storybook/react"
+          ]
         },
         {
           "file": "apps/crispr-cas9/components/Task.component.tsx",
-          "hash": "3440059978495243541"
+          "hash": "3440059978495243541",
+          "deps": [
+            "npm:react"
+          ]
         },
         {
           "file": "apps/crispr-cas9/components/cas9elements.ts",
@@ -238,7 +261,9 @@
         {
           "file": "apps/crispr-cas9/components/globalStyle.ts",
           "hash": "10231151012625883173",
-          "deps": ["npm:styled-components"]
+          "deps": [
+            "npm:styled-components"
+          ]
         },
         {
           "file": "apps/crispr-cas9/index.d.ts",
@@ -246,7 +271,7 @@
         },
         {
           "file": "apps/crispr-cas9/jest.config.ts",
-          "hash": "16468725792720184872"
+          "hash": "10769343569540955585"
         },
         {
           "file": "apps/crispr-cas9/next-env.d.ts",
@@ -254,31 +279,51 @@
         },
         {
           "file": "apps/crispr-cas9/next.config.js",
-          "hash": "14533850306915826133"
+          "hash": "4272252622042955866",
+          "deps": [
+            "npm:@nx/next"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/_app.tsx",
-          "hash": "11156945966636074590"
+          "hash": "11156945966636074590",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/_document.tsx",
           "hash": "4129735063134445253",
-          "deps": ["npm:styled-components"]
+          "deps": [
+            "npm:next",
+            "npm:styled-components"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/cas9.tsx",
           "hash": "8627865605366965216",
-          "deps": ["npm:@mui/material"]
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/edit.tsx",
           "hash": "15103009462797203161",
-          "deps": ["npm:@mui/material"]
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/genome.tsx",
           "hash": "15033730858642791575",
-          "deps": ["npm:@mui/material", "npm:@mui/icons-material"]
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:@mui/icons-material"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/genome/index.ts",
@@ -286,8 +331,13 @@
         },
         {
           "file": "apps/crispr-cas9/pages/index.tsx",
-          "hash": "9404759604484960342",
-          "deps": ["npm:styled-components", "npm:@mui/material"]
+          "hash": "17890353337334727320",
+          "deps": [
+            "npm:react",
+            "npm:styled-components",
+            "npm:next",
+            "npm:@mui/material"
+          ]
         },
         {
           "file": "apps/crispr-cas9/pages/styles.css",
@@ -295,7 +345,7 @@
         },
         {
           "file": "apps/crispr-cas9/project.json",
-          "hash": "9941193432926028207"
+          "hash": "260689583328825892"
         },
         {
           "file": "apps/crispr-cas9/public/.gitkeep",
@@ -315,15 +365,23 @@
         },
         {
           "file": "apps/crispr-cas9/specs/index.spec.tsx",
-          "hash": "11056183168799669859"
+          "hash": "11056183168799669859",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
         },
         {
           "file": "apps/crispr-cas9/tsconfig.json",
-          "hash": "2655586551553705726"
+          "hash": "2295372536319135618"
         },
         {
           "file": "apps/crispr-cas9/tsconfig.spec.json",
           "hash": "6932660931697717727"
+        },
+        {
+          "file": "apps/crispr-cas9/tsconfig.storybook.json",
+          "hash": "7221315955876319437"
         }
       ]
     }
