@@ -1,0 +1,7 @@
+[36minfo[39m  - automatically enabled Fast Refresh for 1 custom loader
+[35mevent[39m - compiled client and server successfully in 998 ms (193 modules)
+[ [32mready[39m ] on http://localhost:4200
+[36mwait[39m  - compiling /_error (client and server)...
+[35mevent[39m - compiled client and server successfully in 1420 ms (194 modules)
+[36mwait[39m  - compiling / (client and server)...
+[35mevent[39m - compiled client and server successfully in 6.1s (11873 modules)
