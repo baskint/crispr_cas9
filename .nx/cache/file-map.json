@@ -38,7 +38,7 @@
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.4.4",
     "@types/node": "18.16.9",
-    "@types/react": "18.2.24",
+    "@types/react": "18.0.1",
     "@types/react-dom": "18.2.9",
     "@types/react-is": "18.2.2",
     "@types/styled-components": "5.1.26",
@@ -133,7 +133,7 @@
       },
       {
         "file": ".yarn/install-state.gz",
-        "hash": "218574595580011154"
+        "hash": "4612462574335549206"
       },
       {
         "file": ".yarnrc.yml",
@@ -177,7 +177,7 @@
       },
       {
         "file": "package.json",
-        "hash": "3301766685173601955"
+        "hash": "12394530891072998723"
       },
       {
         "file": "storybook-migration-summary.md",
@@ -193,10 +193,52 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "3949173455539825047"
+        "hash": "18058714637152014328"
       }
     ],
     "projectFileMap": {
+      "crispr-cas9-e2e": [
+        {
+          "file": "apps/crispr-cas9-e2e/.eslintrc.json",
+          "hash": "15523834149352881398"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/project.json",
+          "hash": "16028366253947981360"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
+          "hash": "11547770221631572470"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
       "crispr-cas9": [
         {
           "file": "apps/crispr-cas9/.eslintrc.json",
@@ -362,48 +404,6 @@
         {
           "file": "apps/crispr-cas9/tsconfig.storybook.json",
           "hash": "7221315955876319437"
-        }
-      ],
-      "crispr-cas9-e2e": [
-        {
-          "file": "apps/crispr-cas9-e2e/.eslintrc.json",
-          "hash": "15523834149352881398"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/cypress.config.ts",
-          "hash": "15414076024138857470",
-          "deps": [
-            "npm:cypress",
-            "npm:@nx/cypress"
-          ]
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/project.json",
-          "hash": "16028366253947981360"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
-          "hash": "11547770221631572470"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/fixtures/example.json",
-          "hash": "11614668686582597233"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/commands.ts",
-          "hash": "7314691991044890572"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/e2e.ts",
-          "hash": "3666078656922506009"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/tsconfig.json",
-          "hash": "1788248097864730386"
         }
       ]
     }

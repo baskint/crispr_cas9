@@ -5143,9 +5143,9 @@
       "type": "npm",
       "name": "npm:@types/react",
       "data": {
-        "version": "18.2.24",
+        "version": "18.0.1",
         "packageName": "@types/react",
-        "hash": "10c0/a83c7ae0010b265012ef038e3e00e4708c27c523f0aa0631e44f934e9c5338a51b6db1901f91d8ba10d3dc292a3a200b2cb5e47430cde58fbf988969866fe75a"
+        "hash": "10c0/4ef14c4da5f685b53396e5b31e042981a54f962bdbd3dfa8cec52035f53f378f0a5244968ce94e49d6cfda26e692411b5a9a3ba082ab67ce106a3c8a882f538b"
       }
     },
     "npm:@types/react@18.3.3": {
