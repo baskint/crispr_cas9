@@ -38,7 +38,7 @@
     "@testing-library/react": "15.0.6",
     "@types/jest": "29.4.4",
     "@types/node": "18.16.9",
-    "@types/react": "18.0.1",
+    "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@types/react-is": "18.3.0",
     "@types/styled-components": "5.1.26",
@@ -72,64 +72,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9084884494335109525"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "9773565372686775399"
-      },
-      {
-        "file": ".babelrc",
-        "hash": "1780677375940200928"
-      },
-      {
-        "file": "storybook-migration-summary.md",
-        "hash": "1744599114392808126"
-      },
-      {
-        "file": "package.json",
-        "hash": "18104543024709472762"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "3627387225305400223"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "10880126546139481326"
-      },
-      {
-        "file": ".tool-versions",
-        "hash": "4738281919045047364"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "10801544132659962230"
-      },
-      {
-        "file": ".storybook/main.ts",
-        "hash": "10036760758910056004"
-      },
-      {
-        "file": "README.MD",
-        "hash": "6948643578033338714"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
+        "file": ".yarn/install-state.gz",
+        "hash": "544041015684225293"
       },
       {
         "file": "babel.config.json",
@@ -140,85 +84,99 @@
         "hash": "7788264000166780777"
       },
       {
-        "file": "nx.json",
-        "hash": "6335297953688681459"
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package.json",
+        "hash": "17892252595999946409"
       },
       {
         "file": ".prettierignore",
         "hash": "1094603469163323313"
       },
       {
-        "file": "package-lock.json",
-        "hash": "2990996745341213457"
-      },
-      {
-        "file": ".yarn/install-state.gz",
-        "hash": "17007467953458637745"
-      },
-      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
-      },
-      {
-        "file": ".storybook/tsconfig.json",
-        "hash": "3128062056361165723"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
       },
       {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
+        "file": "storybook-migration-summary.md",
+        "hash": "1744599114392808126"
+      },
+      {
         "file": "yarn.lock",
-        "hash": "14307554208232281129"
+        "hash": "4872148666825786400"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2990996745341213457"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6335297953688681459"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
+      },
+      {
+        "file": "README.MD",
+        "hash": "6948643578033338714"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": ".tool-versions",
+        "hash": "4738281919045047364"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "10801544132659962230"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18221718682305660780"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "10036760758910056004"
+      },
+      {
+        "file": ".storybook/tsconfig.json",
+        "hash": "3128062056361165723"
+      },
+      {
+        "file": ".babelrc",
+        "hash": "1780677375940200928"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "3627387225305400223"
       }
     ],
     "projectFileMap": {
-      "crispr-cas9-e2e": [
-        {
-          "file": "apps/crispr-cas9-e2e/.eslintrc.json",
-          "hash": "15523834149352881398"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/cypress.config.ts",
-          "hash": "15414076024138857470",
-          "deps": [
-            "npm:cypress",
-            "npm:@nx/cypress"
-          ]
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/project.json",
-          "hash": "16028366253947981360"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
-          "hash": "11547770221631572470"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/fixtures/example.json",
-          "hash": "11614668686582597233"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/commands.ts",
-          "hash": "7314691991044890572"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/src/support/e2e.ts",
-          "hash": "3666078656922506009"
-        },
-        {
-          "file": "apps/crispr-cas9-e2e/tsconfig.json",
-          "hash": "1788248097864730386"
-        }
-      ],
       "crispr-cas9": [
         {
           "file": "apps/crispr-cas9/.eslintrc.json",
@@ -302,7 +260,7 @@
         },
         {
           "file": "apps/crispr-cas9/pages/cas9.tsx",
-          "hash": "9148510688510910092",
+          "hash": "3000904441287377784",
           "deps": [
             "npm:react",
             "npm:@mui/material"
@@ -382,6 +340,48 @@
         {
           "file": "apps/crispr-cas9/tsconfig.storybook.json",
           "hash": "7221315955876319437"
+        }
+      ],
+      "crispr-cas9-e2e": [
+        {
+          "file": "apps/crispr-cas9-e2e/.eslintrc.json",
+          "hash": "15523834149352881398"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/project.json",
+          "hash": "16028366253947981360"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/e2e/app.cy.ts",
+          "hash": "11547770221631572470"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/crispr-cas9-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
         }
       ]
     }

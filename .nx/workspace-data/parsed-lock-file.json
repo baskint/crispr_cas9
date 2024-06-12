@@ -2200,18 +2200,27 @@
       "type": "npm",
       "name": "npm:@emotion/react",
       "data": {
-        "version": "11.11.1",
+        "version": "11.11.4",
         "packageName": "@emotion/react",
-        "hash": "10c0/1aea4d735b537fbfbeda828bbf929488a7e1b5b7d131f14aeede8737e92bb3b611e15fec353e97f85aed7a65a1c86a695a04ba6e9be905231beef6bd624cb705"
+        "hash": "10c0/6df892fd9e04b5c8c37aacfd7f461631e04e00e845edc3c5b2955ab8ad681abf5cd49584101f579427e08b82f2f88369c78d37ae2fe9360a8f68fd4e51b8e448"
+      }
+    },
+    "npm:@emotion/serialize@1.1.3": {
+      "type": "npm",
+      "name": "npm:@emotion/serialize@1.1.3",
+      "data": {
+        "version": "1.1.3",
+        "packageName": "@emotion/serialize",
+        "hash": "10c0/875241eafaa30e7d3b7cf9b585d8c1f224cbf627a674e87eb1d7662dafa76a8c8d67f14a79dbf7d1eaa017e9f68389962990fbcc699d5ad65035a1a047432a3f"
       }
     },
     "npm:@emotion/serialize": {
       "type": "npm",
       "name": "npm:@emotion/serialize",
       "data": {
-        "version": "1.1.3",
+        "version": "1.1.4",
         "packageName": "@emotion/serialize",
-        "hash": "10c0/875241eafaa30e7d3b7cf9b585d8c1f224cbf627a674e87eb1d7662dafa76a8c8d67f14a79dbf7d1eaa017e9f68389962990fbcc699d5ad65035a1a047432a3f"
+        "hash": "10c0/164d936f72382594c47b9c24e67a51c7fc16b83d9a36b84eec5e4cb9bf7be029218a490ef4b44233a1b53423bdb3905d65b597cde3ebba759d40dab7a4c99121"
       }
     },
     "npm:@emotion/sheet": {
@@ -2227,9 +2236,9 @@
       "type": "npm",
       "name": "npm:@emotion/styled",
       "data": {
-        "version": "11.11.0",
+        "version": "11.11.5",
         "packageName": "@emotion/styled",
-        "hash": "10c0/a168bd7a8a6f254e54a321be4c7b7dd4bf65815e6570ba7c5a435b7d5aeebd76434e04886db7799a955817c8d5bf0103a3dcc3c785fba2bb53922320dda59a10"
+        "hash": "10c0/27da6ad7f5b374d61cfe6647cc2f93ee3ceb1139a51907050576ee30da0a50a27b0bbed45f76889d560d2a8ccf8bc4a4f7126cad3f00127e107c11093dc0a801"
       }
     },
     "npm:@emotion/unitless": {
@@ -2889,6 +2898,15 @@
         "hash": "10c0/410e3f647df4543cb104ad1918aac930822a9570ef4416a325bde63bb347abba49c759b8dd78e39dfcc3148a357447d49998a34cf0cd900db1fc22d9f59ec496"
       }
     },
+    "npm:@mui/private-theming@5.15.20": {
+      "type": "npm",
+      "name": "npm:@mui/private-theming@5.15.20",
+      "data": {
+        "version": "5.15.20",
+        "packageName": "@mui/private-theming",
+        "hash": "10c0/d6707ef884769a58a9dac23328138cd2dbb3dbdcfbf46beae406638628a77b2975aaf787f863143ae97ea2d5f6eca8d0ff929f2159f3f9b58bcedb2e01c7bce6"
+      }
+    },
     "npm:@mui/styled-engine-sc": {
       "type": "npm",
       "name": "npm:@mui/styled-engine-sc",
@@ -2907,13 +2925,31 @@
         "hash": "10c0/b168565256c82ed34946f954e9088c339917c980451b5dd3d6dca9d36e6d39b5900ea85ffc5736b66d25f841dc761a8c2c70c111c42bec794309f2cafb3975ce"
       }
     },
-    "npm:@mui/system": {
+    "npm:@mui/styled-engine@5.15.14": {
       "type": "npm",
-      "name": "npm:@mui/system",
+      "name": "npm:@mui/styled-engine@5.15.14",
+      "data": {
+        "version": "5.15.14",
+        "packageName": "@mui/styled-engine",
+        "hash": "10c0/0d262ea0b3c117f865af1cd52b992592c24432e491b35e712159bb49adfd776ee9a532abbc4ab08889f308e75d30082a0fee809119d5d61a82b3277212655319"
+      }
+    },
+    "npm:@mui/system@5.15.13": {
+      "type": "npm",
+      "name": "npm:@mui/system@5.15.13",
       "data": {
         "version": "5.15.13",
         "packageName": "@mui/system",
         "hash": "10c0/2c41fa0bf8cf46a13543f806a91f4cd8f55505f9875463e639bac87a1c2f1c23203e83eead2d7e2e39b44cbff26833ee6065c26cb7f1f14d820b2e741350dcf3"
+      }
+    },
+    "npm:@mui/system": {
+      "type": "npm",
+      "name": "npm:@mui/system",
+      "data": {
+        "version": "5.15.20",
+        "packageName": "@mui/system",
+        "hash": "10c0/7561d14d613e882cbe8959cbb779e6641542242e5a79974bad306c59c1505b5924cb2b866619b55d064aae1a1e8421dc3a613ad1a4cf330be7eebd1881170cff"
       }
     },
     "npm:@mui/types": {
@@ -2925,6 +2961,15 @@
         "hash": "10c0/4d0014cabf9efda8cfcbdcb01435af7e678c60cf73f808da857c50a795d3b9943a1209d6501a9be173ce692cd8739803b0857166969206eceefeafe1aa8a5d3a"
       }
     },
+    "npm:@mui/types@7.2.14": {
+      "type": "npm",
+      "name": "npm:@mui/types@7.2.14",
+      "data": {
+        "version": "7.2.14",
+        "packageName": "@mui/types",
+        "hash": "10c0/d4e0a9fce4bddfb5e0b7b6be1b15b591df33bb90ef0087e4bd5fe85f00f62776c7ed0e4698e7fb43213e1f04064aac1695b53ca52aaeaee7dbba248a792bdd1e"
+      }
+    },
     "npm:@mui/utils": {
       "type": "npm",
       "name": "npm:@mui/utils",
@@ -2932,6 +2977,15 @@
         "version": "5.15.13",
         "packageName": "@mui/utils",
         "hash": "10c0/a001cc55833d1df0acfab4c3ec9fdb7c94012000c91ab23ae09745ead381faeef7c845f454ed4d6f5dc472604939158d9ee273ce5fb60f981a13f06233022c00"
+      }
+    },
+    "npm:@mui/utils@5.15.20": {
+      "type": "npm",
+      "name": "npm:@mui/utils@5.15.20",
+      "data": {
+        "version": "5.15.20",
+        "packageName": "@mui/utils",
+        "hash": "10c0/d745895db047ef016681482f3d4710aa487f9e7bcd457ac2a395bdaf719a6a98f8bf5f1920d4729b0bc69f7ef2153624aa6a565ec0e31f76c33d7167397ac4d9"
       }
     },
     "npm:@next/env": {
@@ -5133,15 +5187,6 @@
     "npm:@types/react": {
       "type": "npm",
       "name": "npm:@types/react",
-      "data": {
-        "version": "18.0.1",
-        "packageName": "@types/react",
-        "hash": "10c0/4ef14c4da5f685b53396e5b31e042981a54f962bdbd3dfa8cec52035f53f378f0a5244968ce94e49d6cfda26e692411b5a9a3ba082ab67ce106a3c8a882f538b"
-      }
-    },
-    "npm:@types/react@18.3.3": {
-      "type": "npm",
-      "name": "npm:@types/react@18.3.3",
       "data": {
         "version": "18.3.3",
         "packageName": "@types/react",
@@ -25651,7 +25696,7 @@
     },
     {
       "source": "npm:@emotion/babel-plugin",
-      "target": "npm:@emotion/serialize",
+      "target": "npm:@emotion/serialize@1.1.3",
       "type": "static"
     },
     {
@@ -25757,6 +25802,56 @@
     {
       "source": "npm:@emotion/react",
       "target": "npm:hoist-non-react-statics",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize@1.1.3",
+      "target": "npm:@emotion/hash",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize@1.1.3",
+      "target": "npm:@emotion/memoize",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize@1.1.3",
+      "target": "npm:@emotion/unitless",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize@1.1.3",
+      "target": "npm:@emotion/utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize@1.1.3",
+      "target": "npm:csstype",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize",
+      "target": "npm:@emotion/hash",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize",
+      "target": "npm:@emotion/memoize",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize",
+      "target": "npm:@emotion/unitless",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize",
+      "target": "npm:@emotion/utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@emotion/serialize",
+      "target": "npm:csstype",
       "type": "static"
     },
     {
@@ -27186,7 +27281,7 @@
     },
     {
       "source": "npm:@mdx-js/react",
-      "target": "npm:@types/react@18.3.3",
+      "target": "npm:@types/react",
       "type": "static"
     },
     {
@@ -27246,7 +27341,7 @@
     },
     {
       "source": "npm:@mui/material",
-      "target": "npm:@mui/system",
+      "target": "npm:@mui/system@5.15.13",
       "type": "static"
     },
     {
@@ -27305,6 +27400,21 @@
       "type": "static"
     },
     {
+      "source": "npm:@mui/private-theming@5.15.20",
+      "target": "npm:@babel/runtime@7.24.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/private-theming@5.15.20",
+      "target": "npm:@mui/utils@5.15.20",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/private-theming@5.15.20",
+      "target": "npm:prop-types",
+      "type": "static"
+    },
+    {
       "source": "npm:@mui/styled-engine-sc",
       "target": "npm:@babel/runtime@7.24.0",
       "type": "static"
@@ -27340,28 +27450,88 @@
       "type": "static"
     },
     {
+      "source": "npm:@mui/styled-engine@5.15.14",
+      "target": "npm:@babel/runtime@7.24.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/styled-engine@5.15.14",
+      "target": "npm:@emotion/cache",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/styled-engine@5.15.14",
+      "target": "npm:csstype",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/styled-engine@5.15.14",
+      "target": "npm:prop-types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:@babel/runtime@7.24.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:@mui/private-theming",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:@mui/styled-engine",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:@mui/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:@mui/utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:clsx",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:csstype",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/system@5.15.13",
+      "target": "npm:prop-types",
+      "type": "static"
+    },
+    {
       "source": "npm:@mui/system",
       "target": "npm:@babel/runtime@7.24.0",
       "type": "static"
     },
     {
       "source": "npm:@mui/system",
-      "target": "npm:@mui/private-theming",
+      "target": "npm:@mui/private-theming@5.15.20",
       "type": "static"
     },
     {
       "source": "npm:@mui/system",
-      "target": "npm:@mui/styled-engine",
+      "target": "npm:@mui/styled-engine@5.15.14",
       "type": "static"
     },
     {
       "source": "npm:@mui/system",
-      "target": "npm:@mui/types",
+      "target": "npm:@mui/types@7.2.14",
       "type": "static"
     },
     {
       "source": "npm:@mui/system",
-      "target": "npm:@mui/utils",
+      "target": "npm:@mui/utils@5.15.20",
       "type": "static"
     },
     {
@@ -27396,6 +27566,26 @@
     },
     {
       "source": "npm:@mui/utils",
+      "target": "npm:react-is@18.2.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/utils@5.15.20",
+      "target": "npm:@babel/runtime@7.24.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/utils@5.15.20",
+      "target": "npm:@types/prop-types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/utils@5.15.20",
+      "target": "npm:prop-types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@mui/utils@5.15.20",
       "target": "npm:react-is@18.2.0",
       "type": "static"
     },
@@ -32316,21 +32506,16 @@
     },
     {
       "source": "npm:@types/react",
-      "target": "npm:@types/scheduler",
-      "type": "static"
-    },
-    {
-      "source": "npm:@types/react",
       "target": "npm:csstype",
       "type": "static"
     },
     {
-      "source": "npm:@types/react@18.3.3",
+      "source": "npm:@types/react",
       "target": "npm:@types/prop-types",
       "type": "static"
     },
     {
-      "source": "npm:@types/react@18.3.3",
+      "source": "npm:@types/react",
       "target": "npm:csstype",
       "type": "static"
     },
