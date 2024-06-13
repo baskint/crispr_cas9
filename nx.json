@@ -67,7 +67,6 @@
     }
   },
   "defaultProject": "crispr-cas9",
-  "nxCloudAccessToken": "NTRlMzNmNDUtMzkyNy00NTljLWE5OTQtOTJkMWY5MWI3OTcxfHJlYWQtd3JpdGU=",
   "useInferencePlugins": false,
   "defaultBase": "main",
   "neverConnectToCloud": true
