@@ -69,5 +69,6 @@
   "defaultProject": "crispr-cas9",
   "useInferencePlugins": false,
   "defaultBase": "main",
-  "neverConnectToCloud": true
+  "neverConnectToCloud": true,
+  "useLegacyCache": true
 }

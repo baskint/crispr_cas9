@@ -7,3 +7,17 @@ export const rootMain: StorybookConfig = {
   //   return config;
   // },
 };
+
+export const docs = {
+  autodocs: true
+};
+export const addons = ['@storybook/addon-webpack5-compiler-babel', '@chromatic-com/storybook'];
+
+export const framework = {
+  name: '@storybook/nextjs',
+  options: {}
+};
+
+export const typescript = {
+  reactDocgen: 'react-docgen-typescript'
+};
