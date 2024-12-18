@@ -73,7 +73,7 @@ export function Index() {
             sx={{ mt: 2}}
           >
             <span className="copyleft">&copy;</span> {currentYear} -
-        <a className="text-amber" href="https://baskintapkan.com/">Tapkan Consulting</a>
+        <a className="text-amber" href="https://baskintapkan.net/">Tapkan Consulting</a>
 
           </Box>
         </div>
