@@ -1,13 +1,16 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react';
+
 import { Task } from './Task.component';
 
-const Story: ComponentMeta<typeof Task> = {
+const meta: Meta<typeof Task> = {
   component: Task,
-  title: 'Task',
 };
-export default Story;
 
-const Template: ComponentStory<typeof Task> = (args) => <Task {...args} />;
+export default meta;
+type Story = StoryObj<typeof Task>;
 
-export const Primary = Template.bind({});
-Primary.args = {};
+export const Primary: Story = {
+  args: {
+    title: 'Test',
+  },
+};
