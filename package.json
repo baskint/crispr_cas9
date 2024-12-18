@@ -16,7 +16,7 @@
     "@mui/styled-engine-sc": "^5.10.6",
     "@storybook/addon-interactions": "^8.4.7",
     "core-js": "3.36.1",
-    "next": "14.2.3",
+    "next": "^15.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "18.3.1",
