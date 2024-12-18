@@ -3173,7 +3173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:11.14.0":
+"@emotion/react@npm:^11.14.0":
   version: 11.14.0
   resolution: "@emotion/react@npm:11.14.0"
   dependencies:
@@ -3214,7 +3214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:11.14.0":
+"@emotion/styled@npm:^11.14.0":
   version: 11.14.0
   resolution: "@emotion/styled@npm:11.14.0"
   dependencies:
@@ -4398,7 +4398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:6.2.1":
+"@mui/icons-material@npm:^6.2.1":
   version: 6.2.1
   resolution: "@mui/icons-material@npm:6.2.1"
   dependencies:
@@ -4414,7 +4414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/material@npm:6.2.1":
+"@mui/material@npm:^6.2.1":
   version: 6.2.1
   resolution: "@mui/material@npm:6.2.1"
   dependencies:
@@ -21222,10 +21222,10 @@ __metadata:
     "@babel/core": "npm:7.26.0"
     "@babel/preset-typescript": "npm:7.26.0"
     "@chromatic-com/storybook": "npm:^3"
-    "@emotion/react": "npm:11.14.0"
-    "@emotion/styled": "npm:11.14.0"
-    "@mui/icons-material": "npm:6.2.1"
-    "@mui/material": "npm:6.2.1"
+    "@emotion/react": "npm:^11.14.0"
+    "@emotion/styled": "npm:^11.14.0"
+    "@mui/icons-material": "npm:^6.2.1"
+    "@mui/material": "npm:^6.2.1"
     "@mui/styled-engine-sc": "npm:6.2.1"
     "@nrwl/js": "npm:19.8.4"
     "@nx/cypress": "npm:20.2.2"
