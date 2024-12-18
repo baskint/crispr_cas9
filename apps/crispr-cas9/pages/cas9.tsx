@@ -14,7 +14,7 @@ import {
   StyledHeader,
 } from '../components/cas9elements';
 
-const Cas9Accordion = (): JSX.Element => {
+const Cas9Accordion = (): React.ReactElement => {
   return (
       <StyledAccordion>
         <StyledAccordionSummary

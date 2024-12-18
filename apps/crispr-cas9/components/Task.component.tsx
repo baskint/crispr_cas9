@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Task = ({ title }): JSX.Element => {
+const Task = ({ title }): React.ReactElement => {
   return (
     <div className="list-item">
       <label htmlFor="title" aria-label={title}>

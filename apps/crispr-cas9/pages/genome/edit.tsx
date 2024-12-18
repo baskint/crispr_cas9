@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
-const Edit =():JSX.Element => {
+const Edit =():React.ReactElement => {
 return <Button variant="contained">Hello Genome</Button>;
 };
 
