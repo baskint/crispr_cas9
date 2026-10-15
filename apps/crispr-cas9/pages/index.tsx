@@ -6,8 +6,6 @@ import Typography from '@mui/material/Typography';
 
 import Cas9Accordion from './cas9';
 
-// import Task from '../components/Task.component';
-
 const StyledPage = styled.div`
   .page {
   }
