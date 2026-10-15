@@ -1,11 +1,5 @@
 import React from 'react';
-
-import AccordionDetails from '@mui/material/AccordionDetails';
-import {
-  Accordion,
-  AccordionSummary,
-  Typography,
-} from '@mui/material';
+import { AccordionDetails, Typography } from '@mui/material';
 
 import {
   StyledAccordion,

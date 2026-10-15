@@ -19,23 +19,6 @@
         "{projectRoot}/tsconfig.storybook.json"
       ],
       "cache": true
-    },
-    "@nx/jest:jest": {
-      "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
-      "cache": true,
-      "options": {
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
-      }
-    },
-    "@nx/eslint:lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
-      "cache": true
     }
   },
   "namedInputs": {
@@ -45,7 +28,7 @@
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
       "!{projectRoot}/tsconfig.spec.json",
       "!{projectRoot}/jest.config.[jt]s",
-      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/eslint.config.mjs",
       "!{projectRoot}/.storybook/**/*",
       "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)",
       "!{projectRoot}/tsconfig.storybook.json",
@@ -70,5 +53,46 @@
   "useInferencePlugins": false,
   "defaultBase": "main",
   "neverConnectToCloud": true,
-  "useLegacyCache": true
+  "analytics": false,
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "serve",
+        "startTargetName": "start",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "plugin": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "ciTargetName": "e2e-ci",
+        "componentTestingTargetName": "component-test",
+        "openTargetName": "open-cypress"
+      }
+    },
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "buildStorybookTargetName": "build-storybook",
+        "serveStorybookTargetName": "storybook",
+        "staticStorybookTargetName": "static-storybook",
+        "testStorybookTargetName": "test-storybook"
+      }
+    }
+  ]
 }

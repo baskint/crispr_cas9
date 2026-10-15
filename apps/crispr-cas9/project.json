@@ -5,60 +5,31 @@
   "projectType": "application",
   "tags": [],
   "targets": {
-    "build": {
-      "executor": "@nx/next:build",
-      "outputs": ["{options.outputPath}"],
-      "defaultConfiguration": "production",
-      "options": {
-        "outputPath": "dist/apps/crispr-cas9"
-      },
-      "configurations": {
-        "development": {
-          "outputPath": "apps/crispr-cas9"
-        },
-        "production": {}
-      }
-    },
     "serve": {
-      "executor": "@nx/next:server",
-      "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "crispr-cas9:build",
-        "dev": true
-      },
-      "configurations": {
-        "development": {
-          "buildTarget": "crispr-cas9:build:development",
-          "dev": true
-        },
-        "production": {
-          "buildTarget": "crispr-cas9:build:production",
-          "dev": false
-        }
+        "port": 4200
       }
     },
-    "export": {
-      "executor": "@nx/next:export",
+    "start": {
       "options": {
-        "buildTarget": "crispr-cas9:build:production"
+        "port": 4200
       }
     },
     "test": {
-      "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/crispr-cas9"],
       "options": {
-        "jestConfig": "apps/crispr-cas9/jest.config.ts"
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "coverage": true
+        }
       }
     },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
-    },
     "storybook": {
-      "executor": "@nx/storybook:storybook",
       "options": {
         "port": 4400,
-        "configDir": "apps/crispr-cas9/.storybook"
+        "config-dir": ".storybook"
       },
       "configurations": {
         "ci": {
@@ -67,11 +38,9 @@
       }
     },
     "build-storybook": {
-      "executor": "@nx/storybook:build",
-      "outputs": ["{options.outputDir}"],
       "options": {
-        "outputDir": "dist/storybook/crispr-cas9",
-        "configDir": "apps/crispr-cas9/.storybook"
+        "config-dir": ".storybook",
+        "output-dir": "../../dist/storybook/crispr-cas9"
       },
       "configurations": {
         "ci": {

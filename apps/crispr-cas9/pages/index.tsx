@@ -14,7 +14,7 @@ const StyledPage = styled.div`
 `;
 
 export function Index() {
-  const currentYear =/\d{4}/.exec(Date())[0];
+  const currentYear = new Date().getFullYear();
 
   return (
     <StyledPage>
@@ -33,15 +33,18 @@ export function Index() {
               <Image height={270} width={340}
                 src="/static/images/dna_structure.jpg"
                 alt="DNA structure"
+                loading="eager"
               />
             </div>
           </div>
           <div id="middle-content">
             <div id="crispr-definition" className="rounded shadow">
               <Box
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
               >
                 <Typography variant="h4">CRISPR</Typography>
               </Box>
@@ -60,17 +63,19 @@ export function Index() {
             <Image
               src="/static/images/how_it_works.jpg"
               alt="how it works"
-              loading="lazy"
+              loading="eager"
               width={700}
               height={800}
             />
           </div>
 
           <Box id="tapkan-consulting"
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            sx={{ mt: 2}}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              mt: 2,
+            }}
           >
             <span className="copyleft">&copy;</span> {currentYear} -
         <a className="text-amber" href="https://baskintapkan.net/">Tapkan Consulting</a>

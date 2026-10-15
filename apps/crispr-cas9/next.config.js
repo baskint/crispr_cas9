@@ -1,17 +1,14 @@
 //@ts-check
+const path = require('node:path');
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { withNx } = require('@nx/next/plugins/with-nx');
-
-/**
- * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
- **/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  nx: {
-    // Set this to true if you would like to to use SVGR
-    // See: https://github.com/gregberge/svgr
-    svgr: false,
+  compiler: {
+    styledComponents: true,
+  },
+  turbopack: {
+    root: path.join(__dirname, '../..'),
   },
 };
 
-module.exports = withNx(nextConfig);
+module.exports = nextConfig;

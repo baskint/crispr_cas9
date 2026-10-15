@@ -3,25 +3,14 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/crispr-cas9-e2e/src",
   "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["crispr-cas9"],
   "targets": {
     "e2e": {
-      "executor": "@nx/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/crispr-cas9-e2e/cypress.config.ts",
-        "devServerTarget": "crispr-cas9:serve:development",
-        "testingType": "e2e"
-      },
-      "configurations": {
-        "production": {
-          "devServerTarget": "crispr-cas9:serve:production"
-        }
+        "config-file": "./cypress.config.ts",
+        "browser": "chrome"
       }
-    },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
     }
-  },
-  "tags": [],
-  "implicitDependencies": ["crispr-cas9"]
+  }
 }
